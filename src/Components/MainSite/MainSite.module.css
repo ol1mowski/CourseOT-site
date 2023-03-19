@@ -1,0 +1,73 @@
+.container {
+    padding-top: 1.4rem;
+    width: 100vw;
+    height: 100vh;
+}
+
+.logo {
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.span_logo {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.main_site {
+    font-size: 1.7rem;
+}
+
+.string, .photo {
+    display: flex;
+    justify-content: center;
+}
+
+.photo_programmer {
+    padding-top: 10%;
+    border-radius: 20px;
+    width: 70vw;
+    z-index: 1;
+}
+
+.background_image {
+    width: 75vw;
+    height: 30vh;
+    border-radius: 100%;
+    position: absolute;
+    top: 24rem;
+    box-shadow: 0 0 10px #184b7d, 0 0 20px #184b7d, 0 0 30px #184b7d, 0 0 40px #184b7d;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+@keyframes glow {
+    0% {
+      opacity: 0.5;
+      filter: brightness(150%);
+    }
+    100% {
+      opacity: 1;
+      filter: brightness(100%);
+    }
+  }
+
+.button_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 17%;
+}
+
+.button {
+    border: none;
+    border-radius: 10px;
+    width: 38vw;
+    height: 6vh;
+    font-weight: bold;
+    font-size: large;
+    background: linear-gradient(to right, rgb(144, 84, 127), white);
+}
+
+.button:hover {
+    cursor: pointer;
+}
