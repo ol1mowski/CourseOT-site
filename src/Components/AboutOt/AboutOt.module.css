@@ -1,0 +1,21 @@
+.container {
+    width: 90vw;
+    height: 70vh;
+}
+
+.bigDes{
+    font-weight: bold;
+    font-size: 3rem;
+    width: 90vw;
+    padding-left: 10%;
+}
+
+.smallDes {
+    width: 90vw;
+    padding-left: 10%;
+    line-height: 1.6rem;
+}
+
+.color {
+    color: #5a1a77;
+}
