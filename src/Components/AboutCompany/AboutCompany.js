@@ -3,6 +3,10 @@ import imageLogo from '../../Assets/logo.png';
 import phone from '../../Assets/icon_media/phone.png'
 import address from '../../Assets/icon_media/location.png'
 import mail from '../../Assets/icon_media/mail.png'
+import linked from '../../Assets/icon_media/linkedIn.png'
+import instagram from '../../Assets/icon_media/instagram.png'
+import facebook from '../../Assets/icon_media/facebook.png'
+import twitter from '../../Assets/icon_media/twitter.png'
 
 function AboutCompany() {
     return(
@@ -31,6 +35,13 @@ function AboutCompany() {
                         kursy.ot-groupe@ot-gropue.de
                     </p>
                 </div>
+            </div>
+
+            <div className={styles.social__icons}>
+                <img className={styles.social__icon} src={linked} alt="linked icon" />
+                <img className={styles.social__icon} src={instagram} alt="instagram icon" />
+                <img className={styles.social__icon} src={facebook} alt="facebook icon" />
+                <img className={styles.social__icon} src={twitter} alt="twitter icon" />
             </div>
         </div>
     )
