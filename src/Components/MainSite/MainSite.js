@@ -1,7 +1,6 @@
 import ImageLogo from '../../Assets/logo.png'
 import ImageOne from '../../Assets/welcome.jpg'
 import styles from './MainSite.module.css'
-import ImageBall from '../../Assets/background.jpg'
 
 function MainSite() {
     return(
@@ -16,7 +15,6 @@ function MainSite() {
                 </div>
                 <div className={styles.photo}>
                     <img className={styles.photo_programmer} src={ImageOne} alt='programer with code'/>
-                    <img className={styles.background_image} src={ImageBall} alt='background to programmer' />
                 </div>
             </div>
             <div className={styles.button_block}>

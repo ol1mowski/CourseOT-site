@@ -1,0 +1,46 @@
+.container {
+    width: 90vw;
+    height: 50vh;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo span {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.title {
+    color: #5a1a77;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 90vw;
+    padding-left: 10%;
+}
+
+.contact__text {
+    float: left;
+    width: 90vw;
+    padding-left: 7%;
+    line-height: 1.6rem;
+}
+
+.logo_contact {
+    width: 50px;
+    height: 50px;
+}
+
+.logo_contact:hover {
+    cursor: pointer;
+}
+
+.contact_icon {
+    width: 70vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
