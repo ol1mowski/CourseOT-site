@@ -1,7 +1,7 @@
 .container {
     padding-top: 1.4rem;
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
 }
 
 .logo {
@@ -53,8 +53,8 @@
 .button {
     border: none;
     border-radius: 10px;
-    width: 38vw;
-    height: 6vh;
+    width: 40vw;
+    height: 7vh;
     font-weight: bold;
     font-size: large;
     background: linear-gradient(to right, rgb(144, 84, 127), white);

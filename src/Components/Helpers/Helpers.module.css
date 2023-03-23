@@ -1,11 +1,11 @@
 .container {
     width: 90vw;
-    height: 90vh;
+    height: 120vh;
 }
 
 .block__text {
     width: 90vw;
-    height: 60vw;
+    height: 90vw;
 }
 
 .header {
@@ -13,6 +13,7 @@
     font-weight: bold;
     font-size: 3rem;
     width: 90vw;
+    height: 30vh;
     padding-left: 7%;
 }
 
