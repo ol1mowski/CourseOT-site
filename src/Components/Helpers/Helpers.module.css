@@ -1,11 +1,11 @@
 .container {
     width: 90vw;
-    height: 120vh;
+    height: 110vh;
 }
 
 .block__text {
     width: 90vw;
-    height: 90vw;
+    height: 110vw;
 }
 
 .header {
@@ -26,7 +26,7 @@
 .graphic {
     margin: auto;
     height: 40vh;
-    width: 80vw;
+    width: 60vw;
 }
 
 .img {
@@ -34,4 +34,22 @@
     height: 100%;
     border-radius: 15%;
     box-shadow: 0 0 10px #184b7d, 0 0 20px #184b7d, 0 0 30px #184b7d, 0 0 40px #184b7d;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        height: 100vh;
+    }
+    .graphic {
+        width: 60vw;
+    }
+    .header {
+        height: 15vh;
+    }
+    .block__text {
+        height: 40vw;
+    }
+    .text {
+        padding-left: 10%;
+    }
 }
