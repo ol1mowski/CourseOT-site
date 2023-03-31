@@ -1,43 +1,55 @@
-import { useEffect } from 'react';
-import { animateScroll } from 'react-scroll';
 import styles from './AboutOt.module.css';
+import { useSpring, animated } from 'react-spring';
+import { useState, useEffect } from 'react';
+
 
 function AboutOt() {
-  const scrollToElement = () => {
-    animateScroll.scrollToElement('#about', {
-      duration: 500,
-      delay: 100,
-      smooth: 'easeInOutQuart',
-    });
-  };
+  const [show, setShow] = useState(false);
+
+  const springProps = useSpring({
+    from: { opacity: 0, transform: 'translateX(-200%)' },
+    to: { opacity: 1, transform: 'translateX(0%)' },
+    delay: 700,
+    config: { duration: 500 }
+  });
 
   useEffect(() => {
     const about = document.getElementById('about');
-    if (about) {
-      about.addEventListener('mouseenter', scrollToElement);
-    }
-    return () => {
-      if (about) {
-        about.removeEventListener('mouseenter', scrollToElement);
+    const handleScroll = () => {
+      const rect = about.getBoundingClientRect();
+      if (rect.top < window.innerHeight && rect.bottom >= 0) {
+        setShow(true);
       }
+    };
+    handleScroll();
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
   return (
     <div id="about" className={styles.container}>
-      <div className={styles.bigDes}>
+      <animated.div
+        className={styles.bigDes}
+        style={show ? springProps : undefined}
+      >
         <span>
           <span className={styles.color}>OT-Groupe</span> to startup, który chce zmienić sposób, w jaki prowadzone są kursy programowania.
         </span>
-      </div>
+      </animated.div>
       <br />
       <br />
       <br />
-      <div className={styles.smallDes}>
+      <animated.div
+        className={styles.smallDes}
+        style={show ? springProps : undefined}
+      >
         <span>Nasz kurs został stworzony, aby dostarczać zastrzyk solidnej wiedzy z zakresu programowania w języku JavaScript wszystkim naszym kursantą.</span>
-      </div>
+      </animated.div>
     </div>
   );
 }
+
 
 export default AboutOt;
