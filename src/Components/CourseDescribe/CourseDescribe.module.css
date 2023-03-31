@@ -48,3 +48,34 @@
         padding-left: 10%;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .container {
+        height: 80vh;
+    }
+    .graphic {
+        width: 33vw;
+        height: 30vh;
+    }
+    .block__text {
+        height: 70vw;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .text {
+        width: 60vw;
+        padding-left: 20%;
+    }
+    .header {
+        width: 70vw;
+        padding-left: 17%;
+    }
+    .block__text {
+        height: 45vw;
+    }
+    .graphic {
+        width: 40vw;
+        height: 40vh;
+    }
+}

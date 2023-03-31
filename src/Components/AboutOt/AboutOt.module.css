@@ -22,7 +22,6 @@
 
 @media screen and (min-width: 768px) {
     .container {
-        width: 90vw;
         height: 60vh;
     }
     .bigDes{
@@ -31,5 +30,26 @@
     .smallDes {
         padding-left: 10%;
         line-height: 1.6rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .bigDes{
+        padding-left: 10%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        height: 50vh;
+    }
+    .bigDes{
+        padding-left: 17%;
+        width: 70vw;
+    }
+    .smallDes {
+        padding-left: 20%;
+        line-height: 1.6rem;
+        width: 60vw; 
     }
 }

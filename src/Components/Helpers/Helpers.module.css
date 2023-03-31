@@ -53,3 +53,61 @@
         padding-left: 10%;
     }
 }
+
+@media screen and (min-width: 768px) {
+    .container {
+        height: 100vh;
+    }
+    .graphic {
+        width: 60vw;
+    }
+    .header {
+        height: 15vh;
+    }
+    .block__text {
+        height: 40vw;
+    }
+    .text {
+        padding-left: 10%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        height: 90vh;
+    }
+    .graphic {
+        width: 33vw;
+        height: 30vh;
+    }
+    .header {
+        height: 7vh;
+    }
+    .block__text {
+        height: 26vw;
+    }
+    .text {
+        padding-left: 10%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        height: 100vh;
+    }
+    .graphic {
+        width: 40vw;
+        height: 40vh;
+    }
+    .block__text {
+        height: 17vw;
+    }
+    .text {
+        padding-left: 20%;
+        width: 60vw;
+    }
+    .header {
+        width: 60vw;
+        padding-left: 17%;
+    }
+}

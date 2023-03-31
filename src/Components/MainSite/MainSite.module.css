@@ -1,7 +1,7 @@
 .container {
     padding-top: 1.4rem;
     width: 100vw;
-    height: 110vh;
+    height: 130vh;
 }
 
 .logo {
@@ -92,5 +92,30 @@
     .container {
         width: 100vw;
         height: 110vh;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .photo_programmer {
+        width: 30vw;
+    }
+    .button {
+        width: 30vw;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .string, .photo {
+        display: inline-block;
+        margin-left: 10vw;
+        margin-top: 7vw;
+    }   
+    .main_site {
+        font-size: 2rem;
+    }
+    .photo_programmer {
+        width: 40vw;
+        height: 40vh;
     }
 }
