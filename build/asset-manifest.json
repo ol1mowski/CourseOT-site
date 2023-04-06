@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/CourseOT-site/static/css/main.197f98a4.css",
+    "main.js": "/CourseOT-site/static/js/main.17a9121b.js",
+    "static/js/787.35e0cac0.chunk.js": "/CourseOT-site/static/js/787.35e0cac0.chunk.js",
+    "static/media/pomoc.jpg": "/CourseOT-site/static/media/pomoc.d860b9c0bfd00f9cdd54.jpg",
+    "static/media/sciana_kodu.jpg": "/CourseOT-site/static/media/sciana_kodu.12e2e152043d0c78319a.jpg",
+    "static/media/welcome.jpg": "/CourseOT-site/static/media/welcome.2551006093227d0160c7.jpg",
+    "static/media/aplikacja.png": "/CourseOT-site/static/media/aplikacja.fc59f5d20f4aefacdf1e.png",
+    "index.html": "/CourseOT-site/index.html",
+    "main.197f98a4.css.map": "/CourseOT-site/static/css/main.197f98a4.css.map",
+    "main.17a9121b.js.map": "/CourseOT-site/static/js/main.17a9121b.js.map",
+    "787.35e0cac0.chunk.js.map": "/CourseOT-site/static/js/787.35e0cac0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.197f98a4.css",
+    "static/js/main.17a9121b.js"
+  ]
+}

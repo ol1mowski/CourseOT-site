@@ -1,0 +1,133 @@
+.container {
+    padding-top: 1.4rem;
+    width: 100vw;
+    height: 130vh;
+}
+
+.logo {
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.span_logo {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.main_site {
+    font-size: 1.7rem;
+}
+
+.string, .photo {
+    display: flex;
+    justify-content: center;
+}
+
+.photo_programmer {
+    border-radius: 20px;
+    width: 70vw;
+    box-shadow: 0 0 10px #184b7d, 0 0 20px #184b7d, 0 0 30px #184b7d, 0 0 40px #184b7d;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+      opacity: 0.5;
+      filter: brightness(150%);
+    }
+    100% {
+      opacity: 1;
+      filter: brightness(100%);
+    }
+  }
+
+.button_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 17%;
+}
+
+.button {
+    border: none;
+    border-radius: 10px;
+    width: 40vw;
+    height: 7vh;
+    font-weight: bold;
+    font-size: large;
+    background: linear-gradient(to right, rgb(144, 84, 127), white);
+}
+
+.button:hover {
+    cursor: pointer;
+    animation: hoop 2s infinite;
+}
+
+@keyframes hoop {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    0% {
+        transform: translateY(0);
+    }
+}
+
+/*RWD*/
+
+@media screen and (min-width: 768px) {
+    .photo_programmer {
+        width: 50vw;
+        height: 29vh;
+    }
+    .main_site {
+        font-size: 1.5rem;
+    }
+    .button_block {
+        padding-top: 6%;
+    }
+    .container {
+        width: 100vw;
+        height: 110vh;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .photo_programmer {
+        width: 30vw;
+    }
+    .button {
+        width: 30vw;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .string, .photo {
+        display: inline-block;
+        margin-left: 10vw;
+        margin-top: 7vw;
+    }   
+    .main_site {
+        font-size: 2rem;
+    }
+    .photo_programmer {
+        width: 40vw;
+        height: 40vh;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .photo_programmer {
+        width: 30vw;
+    }
+    .string, .photo {
+        margin-left: 17vw;
+    }
+    .button {
+        width: 15vw;
+    }  
+}

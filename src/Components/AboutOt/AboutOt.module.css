@@ -1,0 +1,67 @@
+.container {
+    width: 90vw;
+    height: 90vh;
+}
+
+.bigDes{
+    font-weight: bold;
+    font-size: 3rem;
+    width: 90vw;
+    padding-left: 10%;
+}
+
+.smallDes {
+    width: 90vw; 
+    padding-left: 7%;
+    line-height: 1.6rem;
+}
+
+.color {
+    color: #5a1a77;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        height: 60vh;
+    }
+    .bigDes{
+        padding-left: 7%;
+    }
+    .smallDes {
+        padding-left: 10%;
+        line-height: 1.6rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .bigDes{
+        padding-left: 10%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        height: 70vh;
+    }
+    .bigDes{
+        padding-left: 17%;
+        width: 70vw;
+    }
+    .smallDes {
+        padding-left: 20%;
+        line-height: 1.6rem;
+        width: 60vw; 
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .bigDes{
+        font-size: 4rem;
+        width: 70vw;
+    }
+    .smallDes {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        padding-left: 25%;
+    }
+}

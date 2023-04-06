@@ -1,0 +1,98 @@
+.header {
+    color: #5a1a77;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 90vw;
+    padding-left: 10%;
+}
+
+.container {
+    width: 90vw;
+    height: 110vh;
+}
+
+.text {
+    width: 90vw;
+    padding-left: 7%;
+    line-height: 1.6rem;
+}
+
+
+.block__text {
+    width: 90vw;
+    height: 90vw;
+}
+
+.graphic {
+    margin: auto;
+    height: 40vh;
+    width: 80vw;
+}
+
+.img {
+    box-shadow: 0 0 10px #184b7d, 0 0 20px #184b7d, 0 0 30px #184b7d, 0 0 40px #184b7d;
+    width: 100%;
+    height: 100%;
+    border-radius: 15%;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        height: 100vh;
+    }
+    .graphic {
+        margin-top: -50vh;
+        width: 60vw;
+    }
+    .text {
+        padding-left: 10%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        height: 80vh;
+    }
+    .graphic {
+        width: 33vw;
+        height: 30vh;
+    }
+    .block__text {
+        height: 70vw;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .text {
+        width: 60vw;
+        padding-left: 20%;
+    }
+    .header {
+        width: 70vw;
+        padding-left: 17%;
+    }
+    .block__text {
+        height: 45vw;
+    }
+    .graphic {
+        width: 40vw;
+        height: 40vh;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .header {
+        font-size: 4rem;
+    }
+    .text {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        padding-left: 25%;
+    }
+    .graphic {
+        width: 30vw;
+    }
+    .container {
+        height: 90vh;
+    }
+}
