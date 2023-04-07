@@ -20,8 +20,8 @@ const Form = () => {
             <div className={styles.product__box}>
                 <img className={styles.img} src={image} alt="Javascript Course Logo" />
                 <div className={styles.price}>
-                    <p><s>79,99 $</s> 59,99 $</p>
-                    <p>Promocja trwa tylko jeszcze: {time}</p>
+                    <span><p><s>79,99 $</s> 59,99 $</p></span>
+                    <p className={styles.steal}>Promocja trwa tylko jeszcze: {time}</p>
                 </div>
             </div>
             <div className={styles.form}>
