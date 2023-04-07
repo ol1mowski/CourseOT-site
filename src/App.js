@@ -5,6 +5,7 @@ import Helpers from "./Components/Helpers/Helpers";
 import InproveYourself from "./Components/InproveYourself/InproveYourself";
 import MainSite from "./Components/MainSite/MainSite";
 import Layout from "./Layout/Layout";
+import Form from "./Components/Form/Form";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       inproveYourself={<InproveYourself />}
       Helpers={<Helpers />}
       AboutCompany={<AboutCompany />}
+      Formulage={<Form />}
       />
     </div>
   );

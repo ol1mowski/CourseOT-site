@@ -17,6 +17,9 @@ function Layout(props) {
                 {props.Helpers}
             </div>
             <div>
+                {props.Formulage}
+            </div>
+            <div>
                 {props.AboutCompany}
             </div>
         </div>
